@@ -1,0 +1,370 @@
+body {
+    margin: 0px auto;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.header {
+    display: flex;
+    height: 70px;
+    background: #A3A656;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Inter', sans-serif;
+    padding-left: 70px;
+    padding-right: 20px;
+}
+
+.lista-header {
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.lista-header ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    /* justify-content: space-between;
+    width: 100%;  */
+}
+
+.lista-header ul li {
+    display: inline-block;
+    padding-right: 20px;
+}
+
+.lista-header ul li a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.lista-header ul li a:hover {
+    color: #FFFF00;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+}
+
+#imagen-user,
+#imagen-flag,
+#imagen-flecha {
+    display: inline-block;
+    padding-left: 10px;
+    vertical-align: middle;
+}
+
+#imagen-user {
+    padding-left: 0;
+}
+
+.texCuenta,
+.txtIdioma {
+    font-size: 14px;
+    font-weight: 400;
+    padding-left: 10px;
+    vertical-align: middle;
+}
+
+.texCuenta {
+    padding-right: 30px;
+}
+
+.vistaPrincipal {
+    width: 100%;
+    height: 823px;
+    background-image: url('../images/main.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.vistaPrincipal h1 {
+    font-size: 96px;
+    font-family: 'Romanesco', cursive;
+    font-weight: 590;
+    color: #000000;
+    margin: 0;
+    padding-top: 200px;
+}
+
+.vistaPrincipal p {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    color: #000000;
+    margin: 0;
+    padding: 30px;
+}
+
+.vistaPrincipal h1,
+.vistaPrincipal p {
+    padding-left: 230px;
+}
+
+
+.seccionReserva {
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #F2F6F6;
+    height: 100px;
+    padding: 0 100px;
+    font-family: 'Inter', sans-serif;
+}
+
+.seccionReserva label {
+    padding-right: 10px;
+}
+
+
+.seccionReserva input {
+    padding: 10px;
+    border: 1px solid #F2F6F6;
+    border-radius: 15px 15px 15px 15px;
+    font-family: 'Inter', sans-serif;
+    width: 150px;
+    height: 37px;
+}
+
+.seccionReserva #cita {
+    width: 300px;
+}
+
+.seccionReserva #lblPromo,
+.seccionReserva #codigoPromo {
+    padding-left: 60px;
+}
+
+.seccionReserva #codigoPromo {
+    padding-left: 10px;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.9rem;
+    color: #9E9A9A;
+    width: 200px;
+}
+
+.contenedorServicios {
+    display: flex;
+    justify-content: space-around;
+    padding: 100px 134px;
+}
+
+.card {
+    width: 350px;
+    background: #ffffff;
+    border-radius: 15px 15px 15px 15px;
+    overflow: hidden;
+    font-family: 'Inter', sans-serif;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card #titulosServicios {
+    font-weight: bold;
+    font-size: 32px;
+    color: #ffffff;
+    background-color: #A3A656;
+    text-align: center;
+    padding: 20px;
+}
+
+.card #descripcion {
+    font-size: 16px;
+    color: #666666;
+    padding: 10px;
+}
+
+#precioServicio {
+    padding-top: 10px;
+    font-weight: bold;
+    font-size: 32px;
+    color: #333333;
+    display: inline-block;
+    float: left;
+}
+
+#btnReserva {
+    padding-top: 10px;
+    display: inline-block;
+    float: right;
+    
+}
+
+#btnReserva a {
+    background-color: #A3A656;
+    color: #ffffff;
+    padding: 15px 40px;
+    border-radius: 35px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+#btnReserva a:hover {
+    background-color: #384001;
+}
+
+
+.seccionSuscripcion {
+    height: 770px;
+    background: #F2F6F6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;  
+}
+
+.tituloBenificio h2 {
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    color: #000000;
+    margin: 0;
+    padding-bottom: 100px;
+    font-family: 'Inter', sans-serif;
+}
+
+.contenedorPlanes {
+    display: flex;
+    justify-content: space-around;
+}
+
+.contenedorSocio {
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-around;
+    padding: 10px 90px;
+
+}
+
+.imagenSuscripcion {
+    width: 233px; 
+    height: 233px; 
+    border: 11px solid #384001; 
+    border-radius: 50%; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    background-color: #ffffff; 
+    overflow: hidden;
+}
+
+.imagenSuscripcion img {
+    width: 60%; 
+    height: auto; /* Mantiene las proporciones originales */
+}
+
+
+.titulosPlanes {
+    font-size: 32px; 
+    font-weight: bold;
+    color: #000000;
+    text-transform: uppercase;
+    padding:5px 0px;
+    font-family: 'Inter', sans-serif;
+}
+
+.btnVCondiciones a {
+    display: inline-block;
+    background-color: #A3A656; 
+    color: #FFFFFF;
+    text-decoration: none; 
+    padding: 20px 60px; 
+    border-radius: 35px; 
+    font-size: 16px;
+    font-weight: bold; 
+    text-transform: uppercase; 
+    font-family: 'Inter', sans-serif;
+}
+
+.btnVCondiciones a:hover {
+    background-color: #384001; 
+}
+
+.lstServicios {
+    text-align: center; 
+    margin: 0; 
+    padding: 20px 0px; 
+}
+
+.lstServicios ul {
+    list-style-position: outside;
+    display: inline-block; /* Centra la lista sin afectar los puntos */
+    text-align: left;
+}
+
+.lstServicios ul li {
+    padding-bottom: 8px; 
+    font-size: 16px; 
+    font-family: 'Inter', sans-serif; 
+    color: #000000; 
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #384001; 
+    height: 97px;
+    padding-left: 70px;
+    padding-right: 50px;
+    font-family: 'Inter', sans-serif;
+    color: #A3A656; 
+}
+
+.lista-footer ul {
+    display: flex;
+    list-style: none;
+}
+
+.lista-footer ul li {
+    display: inline-block;
+}
+
+.lista-footer ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #A3A656;
+    font-size: 16px;
+    padding-right: 120px; 
+}
+
+.lista-footer ul li a:hover {
+    color: #FFFF00;
+}
+
+.redes-sociales {
+    display: flex;
+    align-items: center;
+}
+
+.redes-sociales span {
+    font-size: 16px;
+    font-weight: 400;
+    color: #A3A656;
+    padding-right: 20px; 
+    text-transform: uppercase;
+}
+
+.redes-sociales img {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    padding-right: 20px; 
+}
+
+.redes-sociales img:hover {
+    filter: brightness(1.5);
+}
